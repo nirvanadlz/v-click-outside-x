@@ -1,3 +1,3 @@
-  declare module "v-click-outside-x" {
-    var directive: any;
-  }
+declare function install(Vue: any): any;
+
+declare var directive: any;
