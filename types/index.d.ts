@@ -1,3 +1,4 @@
-declare function install(Vue: any): any;
-
-declare var directive: any;
+declare module 'vue-property-decorator' {
+  export function install(Vue: any): any;
+  export var directive: any;
+}
